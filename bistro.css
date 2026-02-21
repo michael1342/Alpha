@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.background-img{
+  background-image: url(./img/shop-hero-3-product-slide-2.jpg);
+  width: 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav{
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.upper-nav {
+  display: flex;
+  gap: 5px;
+}
+
+.nav-user{
+  color: lightblue;
+}
+
+.texta{
+  text-align: center;
+  padding-top: 260px;
+  color: white;
+}
+
+.second-page{
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+
+.BESTSELLER{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  padding-bottom: 45px;
+  margin: 10px;
+}
+
+
+
+.engdeppics{
+  margin-left: 50px;
+  /* background-color: aqua; */
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  padding: 50px;
+  gap: 20px;
+  grid-column: span 2;
+}  
+
+
+
+.third-page{
+  display: flex;
+  align-self: center;
+}
+
+.first-part{
+  height: 649px;
+  width: 674px;
+}
+.second-part{
+  text-align: center;
+  margin: 20px;
+  height: 649px;
+  width: 401px;
+  padding-top: 40px;
+  /* padding-bottom: 50px; */
+
+}
+
+.img-pack{
+  padding-top: 80px;
+}
+
+.English-p{
+  padding-top: 130px;
+}
+.third-page-row{
+  width: 1066px;
+  align-content: center;
+}
