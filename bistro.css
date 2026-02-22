@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+section{
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}
 
 .background-img{
   background-image: url(./img/shop-hero-3-product-slide-2.jpg);
@@ -45,6 +50,7 @@ nav{
   flex-direction: row;
   gap: 50px;
   padding-bottom: 45px;
+  padding-left: 50px;
   margin: 10px;
 }
 
@@ -70,6 +76,7 @@ nav{
 .first-part{
   height: 649px;
   width: 674px;
+  padding-left: 65px;
 }
 .second-part{
   text-align: center;
@@ -77,6 +84,7 @@ nav{
   height: 649px;
   width: 401px;
   padding-top: 40px;
+  padding-left: 80px;
   /* padding-bottom: 50px; */
 
 }
@@ -91,4 +99,6 @@ nav{
 .third-page-row{
   width: 1066px;
   align-content: center;
+  padding-left: 65px;
 }
+
