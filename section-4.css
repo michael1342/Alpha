@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.product1 {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+.nav {
+    display: flex;
+    gap: 1.5rem;
+}
+
+li {
+    list-style-type: none;
+}
+
+.product-div1 {
+    grid-column: span 2;
+}
+.product-div2 {
+    width: 100%;
+}
+
+img {
+   
+}
+
+.product1-display {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+
+
